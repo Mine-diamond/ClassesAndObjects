@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdvancedProgramme/AdvancedProgramme.iml" filepath="$PROJECT_DIR$/AdvancedProgramme/AdvancedProgramme.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ClassesAndObjects.iml" filepath="$PROJECT_DIR$/ClassesAndObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ClassesAndObjects.iml" filepath="$PROJECT_DIR$/src/ClassesAndObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/advanced-learning/advanced-learning.iml" filepath="$PROJECT_DIR$/advanced-learning/advanced-learning.iml" />
     </modules>
   </component>

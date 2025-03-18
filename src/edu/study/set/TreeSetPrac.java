@@ -3,6 +3,7 @@ package edu.study.set;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.util.Objects;
 import java.util.TreeSet;
 
 public class TreeSetPrac {
@@ -33,5 +34,18 @@ class Student implements Comparable<Student> {
         }
 
         return this.age >= o.age ? 1 : -1;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return age == student.age && Objects.equals(name, student.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
     }
 }
